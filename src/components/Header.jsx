@@ -123,7 +123,7 @@ const Header = () => {
           backgroundPositionX: "center",
           backgroundPositionY: "center",
         }}
-        className="sm:w-11/12 w-full rounded-xl overflow-hidden"
+        className="w-full rounded-xl overflow-hidden"
       >
         <div className="bg-gradient-to-b text-white from-black/50 via-black/40 to-black/30 flex flex-col items-center gap-3 lg:py-20 sm:py-16 py-12 px-5">
           <h2 className="lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold">
