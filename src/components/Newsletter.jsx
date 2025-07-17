@@ -2,7 +2,10 @@ import newsletterBg from "./../assets/img/Rectangle 8-1.png";
 
 const Newsletter = () => {
   return (
-    <div className="container grid md:grid-cols-5 sm:grid-cols-2 grid-cols-1 justify-center items-center w-full gap-5 py-10 px-5">
+    <div
+      id="Contact"
+      className="container grid md:grid-cols-5 sm:grid-cols-2 grid-cols-1 justify-center items-center w-full gap-5 py-10 px-5"
+    >
       <div className="md:col-span-2 col-span-1 p-5 rounded-2xl border border-orange-500 flex flex-col items-start gap-1 shadow-lg">
         <h4 className="text-xl font-semibold">Newsletter</h4>
         <p className="text-gray-700">

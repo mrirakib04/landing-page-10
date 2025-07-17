@@ -4,7 +4,10 @@ import whyUsImg3 from "./../assets/img/Group 26.png";
 
 const WhyUs = () => {
   return (
-    <div className="container flex flex-col items-center w-full gap-5 py-10 px-5">
+    <div
+      id="Testimonial"
+      className="container flex flex-col items-center w-full gap-5 py-10 px-5"
+    >
       <h2 className="lg:text-4xl md:text-3xl text-2xl font-semibold">
         Why Choose Us
       </h2>

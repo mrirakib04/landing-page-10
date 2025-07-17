@@ -8,9 +8,12 @@ import Bandarban from "./../assets/img/Rectangle 10.png";
 
 const Destination = () => {
   return (
-    <div className="container flex flex-col items-center w-full gap-5 py-10 px-5">
+    <div
+      id="Packages"
+      className="container flex flex-col items-center w-full gap-5 py-10 px-5"
+    >
       <h2 className="lg:text-4xl md:text-3xl text-2xl font-semibold">
-        Our Popular Tours
+        Choose Your Destination
       </h2>
       <p className="text-gray-700 text-center md:w-2/3">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi omnis,

@@ -2,7 +2,10 @@ import videoPerfectPlace from "./../assets/video/perfect-place.mp4";
 
 const PerfectPlace = () => {
   return (
-    <div className="container flex md:flex-row flex-col items-center w-full gap-5 py-10 px-5">
+    <div
+      id="Blog"
+      className="container flex md:flex-row flex-col items-center w-full gap-5 py-10 px-5"
+    >
       <div className="flex flex-col items-start gap-1 md:w-1/2 w-full">
         <h2 className="lg:text-4xl md:text-3xl text-2xl font-semibold">
           A Simple Perfect Place <br /> To Get Lost
