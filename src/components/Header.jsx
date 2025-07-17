@@ -140,16 +140,22 @@ const Header = () => {
               type="text"
               placeholder="Where Go"
             />
-            <select className="py-2 px-2 w-full bg-white rounded-md text-gray-700">
-              <option value="none" disabled selected>
+            <select
+              defaultValue={"none"}
+              className="py-2 px-2 w-full bg-white rounded-md text-gray-700"
+            >
+              <option value="none" disabled>
                 When
               </option>
               <option value="Morning">Morning</option>
               <option value="Evening">Evening</option>
               <option value="Night">Night</option>
             </select>
-            <select className="py-2 px-2 w-full bg-white rounded-md text-gray-700">
-              <option value="none" disabled selected>
+            <select
+              defaultValue={"none"}
+              className="py-2 px-2 w-full bg-white rounded-md text-gray-700"
+            >
+              <option value="none" disabled>
                 Select Type
               </option>
               <option value="Day">Day</option>
