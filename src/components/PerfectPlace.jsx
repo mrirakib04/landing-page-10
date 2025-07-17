@@ -1,3 +1,5 @@
+import videoPerfectPlace from "./../assets/video/perfect-place.mp4";
+
 const PerfectPlace = () => {
   return (
     <div className="container flex md:flex-row flex-col items-center w-full gap-5 py-10 px-5">
@@ -22,15 +24,11 @@ const PerfectPlace = () => {
           </button>
         </div>
       </div>
-      <iframe
-        src="https://www.youtube.com/embed/nqye02H_H6I?si=-ZFF7PdvQDfhh8iM"
+      <video
+        src={videoPerfectPlace}
         className="md:max-w-1/2 max-w-full w-full object-cover md:h-96 h-60 rounded-2xl shadow-xl"
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerPolicy="strict-origin-when-cross-origin"
-        sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"
-        rel="0"
-      ></iframe>
+        controls
+      ></video>
     </div>
   );
 };
