@@ -119,6 +119,9 @@ const Deals = () => {
           </button>
         </div>
       </div>
+      <button className="text-lg font-medium bg-orange-500 text-white hover:bg-black duration-300 py-2 px-4 rounded-md mt-3">
+        See All Packages
+      </button>
     </div>
   );
 };
