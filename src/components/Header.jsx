@@ -1,6 +1,8 @@
 import { useState } from "react";
 import logo from "./../assets/img/Group 40071 (2).png";
+import bg from "./../assets/img/Group 13.png";
 import { PiListBold } from "react-icons/pi";
+import { FaSearch } from "react-icons/fa";
 
 const Header = () => {
   const [showNav, setShowNav] = useState(false);
@@ -113,6 +115,53 @@ const Header = () => {
           </ul>
         )}
       </nav>
+      <div
+        style={{
+          background: `url(${bg})`,
+          backgroundImage: `url(${bg})`,
+          backgroundSize: "cover",
+          backgroundPositionX: "center",
+          backgroundPositionY: "center",
+        }}
+        className="sm:w-11/12 w-full rounded-xl overflow-hidden"
+      >
+        <div className="bg-gradient-to-b text-white from-black/50 via-black/40 to-black/30 flex flex-col items-center gap-3 lg:py-20 sm:py-16 py-12 px-5">
+          <h2 className="lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold">
+            Explore Your Travel
+          </h2>
+
+          <p className="text-center md:w-2/3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis vero
+            eveniet debitis quae beatae voluptates a animi ex.
+          </p>
+          <div className="mt-5 flex md:flex-row flex-col items-center gap-5 px lg:w-4/5 md:w-11/12 sm:w-11/12 w-full p-3 rounded-lg bg-white/40">
+            <input
+              className="py-2 px-2 w-full bg-white rounded-md text-gray-700"
+              type="text"
+              placeholder="Where Go"
+            />
+            <select className="py-2 px-2 w-full bg-white rounded-md text-gray-700">
+              <option value="none" disabled selected>
+                When
+              </option>
+              <option value="Morning">Morning</option>
+              <option value="Evening">Evening</option>
+              <option value="Night">Night</option>
+            </select>
+            <select className="py-2 px-2 w-full bg-white rounded-md text-gray-700">
+              <option value="none" disabled selected>
+                Select Type
+              </option>
+              <option value="Day">Day</option>
+              <option value="Weekly">Weekly</option>
+              <option value="Contuctual">Contuctual</option>
+            </select>
+            <button className="py-2 px-2 w-full bg-orange-600 hover:bg-black duration-300 rounded-md text-white flex items-center gap-1 text-center justify-center font-medium">
+              <FaSearch className="text-lg"></FaSearch> Find
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
